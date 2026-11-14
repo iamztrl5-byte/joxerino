@@ -1,0 +1,21 @@
+{
+  "name": "joxerino",
+  "version": "1.0.0",
+  "description": "J0X Discord Bot with Event System",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["discord", "bot", "events", "j0x"],
+  "author": "J0X",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.3.1"
+  }
+}
